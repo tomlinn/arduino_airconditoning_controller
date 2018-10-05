@@ -6,7 +6,7 @@
 #include <IRremote.h>                    // 引用 IRRemote 函式庫
 #include <SoftwareSerial.h>
 IRsend irsend;                           // 定義 IRsend 物件來發射紅外線訊號
-SoftwareSerial BT(8, 7);
+SoftwareSerial BT(8, 7);//藍芽腳位
 char v;
 void setup()
 {
